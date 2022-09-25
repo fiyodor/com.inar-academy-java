@@ -4,8 +4,6 @@ public class Exercise_10 {
 	
 	public static void main(String[] args) {
 		
-		String numbers = "";
-		
 		int count = 0;
 		int numberOfLine = 10 ;
 		
