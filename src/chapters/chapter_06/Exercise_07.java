@@ -16,11 +16,14 @@ public class Exercise_07 {
 
         double monthlyInterestRate = input.nextDouble() / 1200 ;
 
-        System.out.print("Enter number of years: ");
+        System.out.println("Years       Future Value");
 
-        int numberOfYears = input.nextInt();
+        for (int i = 1; i <= 30 ; i++) {
 
-        System.out.println("Accumulated value is " + futureInvestmentValue(investmentAmount, monthlyInterestRate, numberOfYears));
+            //System.out.printf("%-2d           %-8.10f\n", i, futureInvestmentValue(investmentAmount, monthlyInterestRate, i));
+            System.out.printf("%-12d", i);
+            System.out.printf("%-11.2f\n",futureInvestmentValue(investmentAmount, monthlyInterestRate, i));
+        }
 
     }
     public static double futureInvestmentValue(double investmentAmount, double monthlyInterestRate, int years){
