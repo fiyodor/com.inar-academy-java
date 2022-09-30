@@ -22,11 +22,11 @@ public class Exercise_11 {
 
                 commission += (balance = salesAmount - 10000) * 0.12;
             }
-            else if(salesAmount > 5000){
+            if(salesAmount > 5000){
 
                 commission += (balance -= balance - 5000) * 0.10;
             }
-            else if(salesAmount > 0){
+            if(salesAmount > 0){
 
                 commission += balance * 0.08;
             }
