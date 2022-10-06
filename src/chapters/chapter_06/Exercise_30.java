@@ -60,7 +60,7 @@ public class Exercise_30 {
             case 2:
             case 3:
             case 12: x = 0; break;
-            case 7:
+            case 7:  x = 1; break;
             case 11: x = 1; break;
         }
         return x;
