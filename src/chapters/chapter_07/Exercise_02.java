@@ -12,7 +12,7 @@ public class Exercise_02 {
 
         int[] array = new int[number_Of_Integers];
 
-        fillArray(array);
+        fillArrayWithInputs(array);
 
         printArray(reverseArray(array));
 
@@ -27,7 +27,8 @@ public class Exercise_02 {
         }
         return reversedArray;
     }
-    public static void fillArray(int[] array){
+
+    public static void fillArrayWithInputs(int[] array){
 
         Scanner input = new Scanner(System.in);
 
