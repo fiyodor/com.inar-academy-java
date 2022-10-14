@@ -1,5 +1,7 @@
 package chapters.chapter_07;
 
+import java.util.Scanner;
+
 public class Exercise_05 {
 
     public static void main(String[] args){
@@ -10,7 +12,7 @@ public class Exercise_05 {
 
         int[] array = new int[number_Of_Integers];
 
-        Exercise_02.fillArrayWithInputs(array);
+        fillArrayWithInputs(array);
 
         int[] distinctNumbers = new int[number_Of_Integers];
 
@@ -27,7 +29,15 @@ public class Exercise_05 {
         }
         displayArray(distinctNumbers, countOfDistinct);
     }
+    public static void fillArrayWithInputs(int[] array){
 
+        Scanner input = new Scanner(System.in);
+
+        for (int i = 0; i < array.length; i++) {
+
+            array[i] = input.nextInt();
+        }
+    }
     public static void displayArray(int[] numbers, int count){
 
         System.out.println("The number of distinct number is " + count);
