@@ -14,7 +14,7 @@ public class Exercise_02 {
 
         fillArrayWithInputs(array);
 
-        printArray(reverseArray(array));
+        displayArray(reverseArray(array));
 
     }
     public static int[] reverseArray(int[] array){
@@ -38,7 +38,7 @@ public class Exercise_02 {
         }
     }
 
-    public static void printArray(int[] array){
+    public static void displayArray(int[] array){
 
         for (int i : array) {
 
