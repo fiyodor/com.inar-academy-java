@@ -12,19 +12,15 @@ public class Exercise_16 {
 
         fillArrayRandomly(array);
 
-        int result;
-
         long startTime = System.currentTimeMillis();
 
-        result = linearSearch(array, key);
+        int result = linearSearch(array, key);
 
         long endTime = System.currentTimeMillis();
 
         long executionTime = endTime - startTime;
 
         System.out.println("Execution time for linear search is " + executionTime);
-
-        selectionSort(array);
 
         startTime = System.currentTimeMillis();
 

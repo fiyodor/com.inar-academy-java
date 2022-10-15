@@ -6,22 +6,16 @@ public class Exercise_26 {
 
     public static void main(String[] args) {
 
-        final int array_Length = 10;
-
-        int[] array = new int[array_Length];
-
-        int[] array2 = new int[array_Length];
-
         System.out.print("Enter list1: ");
 
-        fillArrayWithInputs(array);
+        int[] array = fillArrayWithInputs();
 
         System.out.print("Enter list2: ");
 
-        fillArrayWithInputs(array2);
+        int[] array2 = fillArrayWithInputs();
+
 
         System.out.print("Two lists are " + (equals(array, array2) ? "" : "not ") + "strictly identical");
-
 
     }
     public static boolean equals(int[] list1, int[] list2){
@@ -40,13 +34,18 @@ public class Exercise_26 {
         return true;
     }
 
-    public static void fillArrayWithInputs(int[] array){
+    public static int[] fillArrayWithInputs(){
 
         Scanner input = new Scanner(System.in);
+
+        int arrayLength = input.nextInt();
+
+        int[] array = new int[arrayLength];
 
         for (int i = 0; i < array.length; i++) {
 
             array[i] = input.nextInt();
         }
+        return array;
     }
 }
