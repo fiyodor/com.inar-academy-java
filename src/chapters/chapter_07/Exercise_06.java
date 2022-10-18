@@ -4,8 +4,7 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
-        final int ARRAY_LENGTH = 50
-                ;
+        final int ARRAY_LENGTH = 50;
 
         int[] primeNumbers = new int[ARRAY_LENGTH];
 

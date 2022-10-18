@@ -6,6 +6,14 @@ public class Exercise_19 {
 
     public static void main(String[] args) {
 
+        int[] array = fillArrayWithInputsAndReturn();
+
+        System.out.println("The list is " + (isSorted(array) ? "already sorted" : "not sorted"));
+
+
+    }
+    public static int[] fillArrayWithInputsAndReturn() {
+
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the list: ");
@@ -14,20 +22,11 @@ public class Exercise_19 {
 
         int[] array = new int[array_Length];
 
-        fillArrayWithInputs(array);
-
-        System.out.println("The list is " + (isSorted(array) ? "already sorted" : "not sorted"));
-
-
-    }
-    public static void fillArrayWithInputs(int[] array) {
-
-        Scanner input = new Scanner(System.in);
-
         for (int i = 0; i < array.length; i++) {
 
             array[i] = input.nextInt();
         }
+        return array;
     }
 
     public static boolean isSorted(int[] array) {
