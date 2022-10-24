@@ -40,40 +40,40 @@ public class Exercise_35 {
 
         int[] result = new int[3];
 
-        int rowCol = 2;
+        int edge = 2;
 
         for (int i = 0; i < m.length; i++) {
 
             for (int j = 0; j < m[i].length; j++) {
 
-                while (isSquare(m, i, j, rowCol)){
+                while (isSquare(m, i, j, edge)){
 
                     result[0] = i;
 
                     result[1] = j;
 
-                    result[2] = rowCol;
+                    result[2] = edge;
 
-                    rowCol++;
+                    edge++;
                 }
             }
         }
         return result;
     }
 
-    public static boolean isSquare(int[][] array, int row, int col, int size){
+    public static boolean isSquare(int[][] array, int row, int col, int edge){
 
-        if (col + size > array[row].length){
-
-            return false;
-        }
-        if (row + size > array.length){
+        if (col + edge > array[row].length){
 
             return false;
         }
-        for (int i = row; i < row + size; i++) {
+        if (row + edge > array.length){
 
-            for (int j = col; j < col + size; j++) {
+            return false;
+        }
+        for (int i = row; i < row + edge; i++) {
+
+            for (int j = col; j < col + edge; j++) {
 
                 if (array[i][j] != 1){
 
