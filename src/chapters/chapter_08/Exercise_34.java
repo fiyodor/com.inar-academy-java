@@ -18,7 +18,6 @@ public class Exercise_34 {
 
         System.out.printf("The rightmost lowest point is (%4.1f, %4.1f)", theRightmostLowestPoint[0], theRightmostLowestPoint[1]);
 
-
     }
     public static void fillArrayWithInputs(double[][] array){
 
@@ -32,28 +31,27 @@ public class Exercise_34 {
             }
         }
     }
-
     public static double[] getRightmostLowestPoint(double[][] points){
 
         double minx = points[0][0];
 
         double miny = points[0][1];
 
-        for (int i = 0; i < points.length; i++) {
+        for (double[] point : points) {
 
-            if (miny > points[i][1]){
+            if (miny > point[1]) {
 
-                miny = points[i][1];
+                miny = point[1];
 
-                minx = points[i][0];
+                minx = point[0];
             }
-            if (miny == points[i][1]){
+            if (miny == point[1]) {
 
-                if (minx < points[i][0]){
+                if (minx < point[0]) {
 
-                    minx = points[i][0];
+                    minx = point[0];
 
-                    miny = points[i][1];
+                    miny = point[1];
                 }
             }
         }
