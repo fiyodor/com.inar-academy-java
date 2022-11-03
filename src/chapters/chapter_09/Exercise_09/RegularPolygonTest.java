@@ -10,8 +10,8 @@ public class RegularPolygonTest {
 
         System.out.println("Regular polygon     Perimeter     Area");
         System.out.println("-----------------------------------------");
-        System.out.printf("%8s              %3.1f         %-1f\n", "p1", p1.getPerimeter(), p1.getArea());
-        System.out.printf("%8s              %3.1f        %-1f\n", "p2", p2.getPerimeter(), p2.getArea());
-        System.out.printf("%8s              %3.1f        %-1f\n", "p3", p3.getPerimeter(), p3.getArea());
+        System.out.printf("%8s              %4.1f        %f\n", "p1", p1.getPerimeter(), p1.getArea());
+        System.out.printf("%8s              %4.1f        %f\n", "p2", p2.getPerimeter(), p2.getArea());
+        System.out.printf("%8s              %4.1f        %f\n", "p3", p3.getPerimeter(), p3.getArea());
     }
 }

@@ -3,9 +3,8 @@ package chapters.chapter_09.Exercise_09;
 public class RegularPolygon {
 
     private int n;
-    private double side;
-    private double x;
-    private double y;
+    private double side, x, y;
+
 
     public RegularPolygon(int n, double side, double x, double y){
 
