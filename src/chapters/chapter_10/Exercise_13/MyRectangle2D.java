@@ -67,7 +67,7 @@ public class MyRectangle2D {
 
         for(int i = 0; i < cornerOsfR1.length; i++) {
 
-            if(contains(cornerOsfR1[i][0], cornerOsfR1[i][1])){
+            if(!contains(cornerOsfR1[i][0], cornerOsfR1[i][1])){
 
                 return false;
             }
@@ -76,7 +76,7 @@ public class MyRectangle2D {
     }
     public boolean contains(double x, double y){
 
-        return ((x <= getX() + getWidth() / 2) || (getX() - getWidth() / 2 >= x)) && ((y <= getY() + getHeight() / 2) || (getY() - getHeight() / 2 >= y));
+        return ((x <= getX() + getWidth() / 2) && (getX() - getWidth() / 2 >= x)) && ((y <= getY() + getHeight() / 2) && (getY() - getHeight() / 2 >= y));
     }
     public double[][] findCorners(MyRectangle2D r){
 
@@ -101,7 +101,7 @@ public class MyRectangle2D {
         boolean cond3 = getX() + (getWidth() / 2) <= r.getX() - (r.getWidth() / 2);
         boolean cond4 = getX() - (getWidth() / 2) >= r.getX() + (r.getWidth() / 2);
 
-        return cond1 || cond2 || cond3 || cond4;
+        return (cond1 || cond2) && (cond3 || cond4);
     }
 
 
