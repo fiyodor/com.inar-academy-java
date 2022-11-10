@@ -1,4 +1,4 @@
-package chapters.chapter_10.Exercise_13;
+package chapters.chapter_10.Exercise_15;
 
 public class MyRectangle2D {
 
@@ -103,6 +103,4 @@ public class MyRectangle2D {
 
         return (cond1 || cond2) || (cond3 || cond4);
     }
-
-
 }
