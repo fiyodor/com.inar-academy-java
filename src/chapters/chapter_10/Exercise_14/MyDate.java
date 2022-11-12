@@ -1,7 +1,5 @@
 package chapters.chapter_10.Exercise_14;
 
-import sun.net.www.content.text.Generic;
-
 import java.util.GregorianCalendar;
 
 public class MyDate {
@@ -17,7 +15,6 @@ public class MyDate {
         this.year = gc.get(GregorianCalendar.YEAR);
         this.month = gc.get(GregorianCalendar.MONTH);
         this.day = gc.get(GregorianCalendar.DAY_OF_MONTH);
-
     }
 
     public MyDate(long elapsedTime){
@@ -55,6 +52,5 @@ public class MyDate {
         year = gc.get(GregorianCalendar.YEAR);
         month = gc.get(GregorianCalendar.MONTH);
         day = gc.get(GregorianCalendar.DAY_OF_MONTH);
-
     }
 }

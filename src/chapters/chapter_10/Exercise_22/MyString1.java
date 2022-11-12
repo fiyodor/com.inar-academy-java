@@ -52,8 +52,6 @@ public class MyString1 {
 
     public boolean equals(MyString1 s){
 
-        int e = 162;
-
         if(s.length() != chars.length){
 
             return false;

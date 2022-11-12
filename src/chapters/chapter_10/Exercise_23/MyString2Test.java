@@ -48,5 +48,15 @@ public class MyString2Test {
 
             System.out.print(ch[i] + "/");
         }
+        System.out.println();
+
+        System.out.println(new MyString2("ABC").compare("ABC"));
+        System.out.println(new MyString2("ABC").compare("ABD"));
+        System.out.println(new MyString2("ABC").compare("ACC"));
+        System.out.println(new MyString2("ABC").compare("ABCDE"));
+        System.out.println(new MyString2("ABC").compare("ZBC"));
+        System.out.println(new MyString2("A").compare("Z"));
+
+        System.out.println(new MyString2("ertugrul").compare("ertz"));
     }
 }

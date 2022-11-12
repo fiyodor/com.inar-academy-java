@@ -59,6 +59,19 @@ public class MyString2 {
 
     public int compare(String s){
 
+        int counterForCh = 0;
+        int counterForS = 0;
+
+        while (counterForS < ch.length && counterForCh < s.length()) {
+
+            if (ch[counterForS] != s.charAt(counterForCh)) {
+
+                return s.charAt(counterForCh) - ch[counterForS];
+            }
+            counterForS++;
+            counterForCh++;
+        }
+
         if(ch.length == s.length()){
 
             return 0;
@@ -74,7 +87,6 @@ public class MyString2 {
 
 
     }
-
     public String toString(){
 
         return new String(ch);
