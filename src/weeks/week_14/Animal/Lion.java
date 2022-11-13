@@ -1,23 +1,33 @@
-package weeks.week_14;
+package weeks.week_14.Animal;
 
-public class Animal {
+public class Lion {
 
-    private double weight;
-    private double height;
-    private boolean hasSwimmingSkills;
-    private boolean hasFlyingSkills;
+    public double tailSize;
+    public double weight;
+    public double height;
+    public boolean hasSwimmingSkills;
+    public boolean hasFlyingSkills;
 
-    public Animal(){
+    public Lion(){
 
-        this(10,1,true,false);
+        this(1,10,1,true,false);
     }
 
-    public Animal(double weight, double height, boolean hasSwimmingSkills, boolean hasFlyingSkills){
+    public Lion(double tailSize, double weight, double height, boolean hasSwimmingSkills, boolean hasFlyingSkills){
 
+        this.tailSize = tailSize;
         this.weight = weight;
         this.height = height;
         this.hasSwimmingSkills = hasSwimmingSkills;
         this.hasFlyingSkills = hasFlyingSkills;
+    }
+
+    public double getTailSize() {
+        return tailSize;
+    }
+
+    public void setTailSize(double tailSize) {
+        this.tailSize = tailSize;
     }
 
     public double getWeight() {
@@ -54,16 +64,21 @@ public class Animal {
 
     public void runs(){
 
-        System.out.println("Animal is running");
+        System.out.println("Lion is running");
     }
 
     public void eats(){
 
-        System.out.println("Animal is eating");
+        System.out.println("Lion is eating");
     }
 
     public void sleeps(){
 
-        System.out.println("Animal is sleeping");
+        System.out.println("Lion is sleeping");
+    }
+
+    public void roar(){
+
+        System.out.println("Lion is roaring");
     }
 }
