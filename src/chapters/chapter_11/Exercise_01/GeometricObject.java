@@ -7,7 +7,7 @@ public class GeometricObject {
 
     public GeometricObject() {
 
-        this("Yellow", false);
+        this("White", false);
     }
 
     public GeometricObject(String color, boolean filled) {

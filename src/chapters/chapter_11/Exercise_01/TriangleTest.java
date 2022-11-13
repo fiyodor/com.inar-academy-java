@@ -14,6 +14,15 @@ public class TriangleTest {
         double side2 = input.nextDouble();
         double side3 = input.nextDouble();
 
+        Triangle t1 = new Triangle(side1, side2, side3);
+
+       // String t1color = t1.color;
+        //boolean t1Filled = t1.filled;
+
+        System.out.println(t1);
+
+        System.out.println("--------------------------------------------------------------------");
+
         System.out.print("Enter the color of the triangle: ");
 
         String color = input.next();
@@ -22,9 +31,12 @@ public class TriangleTest {
 
         boolean filled = input.nextBoolean();
 
-        Triangle t1 = new Triangle(color, filled, side1, side2, side3);
+        t1.setColor(color);
+        t1.setFilled(filled);
 
         System.out.println(t1);
+
+        System.out.println("------------------------------------------------------------");
 
         t1.setColor("Orange");
         t1.setFilled(false);
