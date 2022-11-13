@@ -18,9 +18,7 @@ public class Exercise_20 {
 
                 a = a.add((new BigDecimal("1").divide(factorial(j) , 25 , BigDecimal.ROUND_UP))) ;
             }
-            System.out.println("e for i = " + i + " => " + a.divide(b , 25 , BigDecimal.ROUND_UP));
-
-            System.out.printf("e for i = %-5s => %-1s\n", i, a.divide(b, 25, BigDecimal.ROUND_UP));
+            System.out.printf("e for i = %-4s => %s\n", i, a.divide(b, 25, BigDecimal.ROUND_UP));
         }
     }
 
