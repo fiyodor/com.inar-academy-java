@@ -9,46 +9,8 @@ public class Student extends Person{
 
     private int classStatus;
 
-    public Student(){
-        super();
-    }
-    public Student(int classStatus) {
-
-        this.classStatus = classStatus;
-    }
-
-    public Student(String name) {
-        super(name);
-    }
-
-    public Student(String name, int classStatus) {
-        super(name);
-        this.classStatus = classStatus;
-    }
-
-    public Student(String name, String address) {
-        super(name, address);
-    }
-
-    public Student(String name, String address, int classStatus) {
-        super(name, address);
-        this.classStatus = classStatus;
-    }
-
-    public Student(String name, String address, String phoneNumber) {
-        super(name, address, phoneNumber);
-    }
-
-    public Student(String name, String address, String phoneNumber, int classStatus) {
-        super(name, address, phoneNumber);
-        this.classStatus = classStatus;
-    }
-
-    public Student(String name, String address, String phoneNumber, String email) {
-        super(name, address, phoneNumber, email);
-    }
-
     public Student(String name, String address, String phoneNumber, String email, int classStatus) {
+
         super(name, address, phoneNumber, email);
         this.classStatus = classStatus;
     }

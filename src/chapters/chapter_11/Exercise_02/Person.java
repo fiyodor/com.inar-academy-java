@@ -9,7 +9,7 @@ public class Person {
 
     public Person(){
 
-        this("Default", "Default", "00000000000","default@default.com");
+        this("Default", "Not Mentioned", "Unknown", "Not mentioned");
     }
 
     public Person(String name, String address, String phoneNumber, String email) {
@@ -17,27 +17,6 @@ public class Person {
         this.address = address;
         this.phoneNumber = phoneNumber;
         this.email = email;
-    }
-
-    public Person(String name, String address, String phoneNumber) {
-        this.name = name;
-        this.address = address;
-        this.phoneNumber = phoneNumber;
-        this.email = "default@default.com";
-    }
-
-    public Person(String name, String address) {
-        this.name = name;
-        this.address = address;
-        this.phoneNumber = "00000000000";
-        this.email = "default@default.com";
-    }
-
-    public Person(String name) {
-        this.name = name;
-        this.address = "default";
-        this.phoneNumber = "00000000000";
-        this.email = "default@default.com";
     }
 
     public String getName() {
