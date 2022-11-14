@@ -53,4 +53,9 @@ public class MyDate {
         month = gc.get(GregorianCalendar.MONTH);
         day = gc.get(GregorianCalendar.DAY_OF_MONTH);
     }
+
+    public String toString(){
+
+        return getDay() + "." + getMonth() + "." + getYear();
+    }
 }
