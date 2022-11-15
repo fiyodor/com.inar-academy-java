@@ -43,7 +43,4 @@ public class TriangleTest {
 
         System.out.println(t1);
     }
-
-
-
 }
