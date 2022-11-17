@@ -17,9 +17,9 @@ public class Account {
     }
     public Account(){
 
-        /*this.id = 0;
+        this.id = 0;
         this.balance = 0;
-        this.annualInterestRate = 0; */
+        this.annualInterestRate = 0;
         this.dateCreated = new Date();
     }
 
