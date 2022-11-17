@@ -42,4 +42,8 @@ public class Listing_02_CircleFromSimpleGeometricObject extends Listing_01_Simpl
     public void printCircle() {
         System.out.println("The circle is created " + getDateCreated() + " and the radius is " + radius);
     }
+    // Override the toString method defined in the superclass
+    public String toString() {
+        return super.toString() + "\nradius is " + radius;
+    }
 }
