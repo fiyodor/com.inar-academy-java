@@ -1,6 +1,6 @@
 package chapters.chapter_11.Checkpoints;
 
-public class Checkpoint_30_31 {
+public class Checkpoint_30_31_32_33_34 {
 
     /*
     30
