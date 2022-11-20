@@ -13,15 +13,15 @@ public class Exercise_17 {
 
         int m = input.nextInt();
 
-        int n = findN(m);
+        int n = findFactors(m);
 
         System.out.println("The smallest number n for m * n to be a perfect square is " + n);
         System.out.println("m * n is " + (m * n));
     }
 
-    public static int findN(int m){
+    public static int findFactors(int m){
 
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> factors = new ArrayList<>();
 
         int divisor = 2;
 
@@ -35,7 +35,7 @@ public class Exercise_17 {
 
                 if(m % divisor == 0){
 
-                    list.add(divisor);
+                    factors.add(divisor);
 
                     m = m / divisor;
                 }
@@ -45,7 +45,7 @@ public class Exercise_17 {
                 }
             }
         }
-        return findN(list);
+        return findN(factors);
     }
 
     public static boolean isPrime(int number){
