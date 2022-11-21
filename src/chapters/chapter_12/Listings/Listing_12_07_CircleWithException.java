@@ -25,8 +25,7 @@ public class Listing_12_07_CircleWithException {
         if (newRadius >= 0)
             radius = newRadius;
         else
-            throw new IllegalArgumentException(
-                    "Radius cannot be negative");
+            throw new IllegalArgumentException("Radius cannot be negative");
     }
     /** Return numberOfObjects */
     public static int getNumberOfObjects() {
