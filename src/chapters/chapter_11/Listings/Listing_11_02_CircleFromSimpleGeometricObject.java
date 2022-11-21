@@ -1,18 +1,18 @@
 package chapters.chapter_11.Listings;
 
-public class Listing_02_CircleFromSimpleGeometricObject extends Listing_01_SimpleGeometricObject {
+public class Listing_11_02_CircleFromSimpleGeometricObject extends Listing_11_01_SimpleGeometricObject {
     private double radius;
 
-    public Listing_02_CircleFromSimpleGeometricObject() {
+    public Listing_11_02_CircleFromSimpleGeometricObject() {
 
     }
 
-    public  Listing_02_CircleFromSimpleGeometricObject(double radius) {
+    public Listing_11_02_CircleFromSimpleGeometricObject(double radius) {
 
         this.radius = radius;
     }
 
-    public  Listing_02_CircleFromSimpleGeometricObject(double radius, String color, boolean filled) {
+    public Listing_11_02_CircleFromSimpleGeometricObject(double radius, String color, boolean filled) {
 
         this.radius = radius;
         setColor(color);

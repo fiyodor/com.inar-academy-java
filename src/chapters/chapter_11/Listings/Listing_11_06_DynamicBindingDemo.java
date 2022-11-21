@@ -1,6 +1,6 @@
 package chapters.chapter_11.Listings;
 
-public class Listing_06_DynamicBindingDemo {
+public class Listing_11_06_DynamicBindingDemo {
 
         public static void main(String[] args) {
             m(new GraduateStudent());

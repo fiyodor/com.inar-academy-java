@@ -2,7 +2,7 @@ package chapters.chapter_11.Listings;
 
 import java.util.ArrayList;
 
-public class Listing_10_MyStack {
+public class Listing_11_10_MyStack {
 
     private ArrayList<Object> list = new ArrayList<>();
     public boolean isEmpty() {

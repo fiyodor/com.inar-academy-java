@@ -2,7 +2,7 @@ package chapters.chapter_11.Listings;
 
 import java.util.ArrayList;
 
-public class Listing_08_TestArrayList {
+public class Listing_11_08_TestArrayList {
 
     public static void main(String[] args) {
 
@@ -31,10 +31,10 @@ public class Listing_08_TestArrayList {
         }
         System.out.println("\n----------------------------------------------");
 
-        ArrayList<Listing_02_CircleFromSimpleGeometricObject> list = new ArrayList<>();
+        ArrayList<Listing_11_02_CircleFromSimpleGeometricObject> list = new ArrayList<>();
 
-        list.add(new Listing_02_CircleFromSimpleGeometricObject(2));
-        list.add(new Listing_02_CircleFromSimpleGeometricObject(3));
+        list.add(new Listing_11_02_CircleFromSimpleGeometricObject(2));
+        list.add(new Listing_11_02_CircleFromSimpleGeometricObject(3));
 
         System.out.println("The area of the first circle: " + list.get(0).getArea());
         System.out.println("The perimeter of the second circle: " + list.get(1).getPerimeter());

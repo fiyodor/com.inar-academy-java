@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import java.util.Scanner;
 
-public class Listing_09_DistinctNumbers {
+public class Listing_11_09_DistinctNumbers {
 
     public static void main(String[] args) {
 

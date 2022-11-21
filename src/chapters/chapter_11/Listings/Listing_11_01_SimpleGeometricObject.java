@@ -1,17 +1,17 @@
 package chapters.chapter_11.Listings;
 
-public class Listing_01_SimpleGeometricObject {
+public class Listing_11_01_SimpleGeometricObject {
 
         private String color = "white";
         private boolean filled;
         private java.util.Date dateCreated;
         /** Construct a default geometric object */
-        public Listing_01_SimpleGeometricObject() {
+        public Listing_11_01_SimpleGeometricObject() {
             dateCreated = new java.util.Date();
         }
     /** Construct a geometric object with the specified color
      * and filled value */
-    public Listing_01_SimpleGeometricObject(String color, boolean filled) {
+    public Listing_11_01_SimpleGeometricObject(String color, boolean filled) {
         dateCreated = new java.util.Date();
         this.color = color;
         this.filled = filled;

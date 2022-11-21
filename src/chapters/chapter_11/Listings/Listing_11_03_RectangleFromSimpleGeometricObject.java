@@ -1,16 +1,16 @@
 package chapters.chapter_11.Listings;
 
-public class Listing_03_RectangleFromSimpleGeometricObject extends Listing_01_SimpleGeometricObject {
+public class Listing_11_03_RectangleFromSimpleGeometricObject extends Listing_11_01_SimpleGeometricObject {
 
     private double width;
     private double height;
-    public Listing_03_RectangleFromSimpleGeometricObject() {
+    public Listing_11_03_RectangleFromSimpleGeometricObject() {
     }
-    public Listing_03_RectangleFromSimpleGeometricObject(double width, double height) {
+    public Listing_11_03_RectangleFromSimpleGeometricObject(double width, double height) {
         this.width = width;
         this.height = height;
     }
-    public Listing_03_RectangleFromSimpleGeometricObject(double width, double height, String color, boolean filled) {
+    public Listing_11_03_RectangleFromSimpleGeometricObject(double width, double height, String color, boolean filled) {
         this.width = width;
         this.height = height;
         setColor(color);
