@@ -8,7 +8,7 @@ public class Listing_12_15_ReadData {
     public static void main(String[] args) throws Exception {
 
         // Create a File instance
-        File file = new java.io.File("scores.txt");
+        File file = new File("scores.txt");
 
         // Create a Scanner for the file
         Scanner input = new Scanner(file);
