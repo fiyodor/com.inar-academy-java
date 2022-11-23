@@ -1,9 +1,7 @@
 package chapters.chapter_09.Exercise_06;
 
-import chapters.chapter_07.Exercise_12;
-import chapters.chapter_07.Exercise_14;
-
-import java.util.Arrays;
+import chapters.chapter_07.Exercises.Exercise_12;
+import chapters.chapter_07.Exercises.Exercise_14;
 
 public class StopwatchTest {
 
