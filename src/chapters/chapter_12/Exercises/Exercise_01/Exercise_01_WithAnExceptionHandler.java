@@ -10,6 +10,7 @@ public class Exercise_01_WithAnExceptionHandler {
                     "Usage: java Calculator operand1 operator operand2");
             System.exit(0);
         }
+
         try {
             Integer.parseInt(args[0]);
         }
