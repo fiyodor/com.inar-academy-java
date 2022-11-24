@@ -11,7 +11,7 @@ public class Exercise_11 {
 
         if(args.length != 2) {
 
-            System.out.println("Two arguments: a String and a (File name)");
+            System.out.println("Two arguments: a String and a File name");
             System.exit(0);
         }
         File file = new File(args[1]);
