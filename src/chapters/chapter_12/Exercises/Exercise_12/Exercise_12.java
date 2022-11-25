@@ -32,7 +32,7 @@ public class Exercise_12 {
                 //str += input.nextLine();  alt satıra geçmiyor
                 str += input.nextLine() + "\n";
             }
-            str = str.replaceAll("\\s*\\{", " {");
+            str = str.replaceAll("\\s*\\{", "{");
         }
         try(PrintWriter output = new PrintWriter(file)) {
 
