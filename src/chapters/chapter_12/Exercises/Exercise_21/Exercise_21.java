@@ -23,6 +23,8 @@ public class Exercise_21 {
 
                     if(strToBeCompared2.compareToIgnoreCase(strToBeCompared1) > 0){
                         System.out.println("The file is not sorted");
+
+                        System.out.println(strToBeCompared2 + " " + strToBeCompared1);
                         System.exit(0);
                     }
                 }
