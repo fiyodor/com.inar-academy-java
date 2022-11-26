@@ -23,7 +23,7 @@ public class Exercise_31 {
 
         try {
 
-            URL url = new URL("https://www.ssa.gov/cgi-bin/popularnames.cgi");
+            URL url = new URL("https://github.com/fiyodor/com.inar-academy-java/blob/master/src/chapters/chapter_12/Exercises/Exercise_31/2010.txt");
 
             Scanner inp = new Scanner(url.openStream());
 

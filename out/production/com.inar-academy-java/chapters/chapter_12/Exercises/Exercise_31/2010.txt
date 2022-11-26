@@ -1,3 +1,4 @@
+LESSON 1
 1	Jacob	22,136	Isabella	22,921
 2	Ethan	18,004	Sophia	20,646
 3	Michael	17,359	Emma	17,348
