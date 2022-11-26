@@ -1,9 +1,9 @@
-LESSON 1 n
+LESSON 1 
 ---------------
 
-git status-  ->status
-git add-->track Jonh file 
- git commit-->to history kutucuğuna 
+git status-->status 
+git add-->track Jonh file
+ git commit-->to history kutucuğuna
 git log--> log  n
 git diff-->dosyadaki değişikliği göster -->working tree ve stage arası
 git add . --> "." means add all new and modified files to staging area.
