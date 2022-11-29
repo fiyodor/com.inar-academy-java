@@ -23,22 +23,21 @@ public class Exercise_31 {
 
         try {
 
-            URL url = new URL("https://github.com/fiyodor/com.inar-academy-java/blob/master/src/chapters/chapter_12/Exercises/Exercise_31/2010.txt");
-
+            URL url = new URL("http://liveexample.pearsoncmg.com/data/babynameranking"+ year + ".txt");
             Scanner inp = new Scanner(url.openStream());
 
             while (inp.hasNext()) {
                 String str = inp.nextLine();
-                list = new ArrayList<>(Arrays.asList(str.split(" ")));
+                list = new ArrayList<>(Arrays.asList(str.split("\\s+")));
 
-                if(gender.toUpperCase() == "M"){
+                if(gender.equalsIgnoreCase("M")){
                     if(list.get(1).equals(name)){
                         System.out.println(name + " is ranked #" + list.get(0) + " in year " + year);
                         System.exit(0);
 
                     }
                 }else {
-                    if(list.get(3).equals(name)) {
+                    if(list.get(3).equalsIgnoreCase(name)) {
                         System.out.println(name + " is ranked #" + list.get(0) + " in year " + year);
                         System.exit(1);
                     }
