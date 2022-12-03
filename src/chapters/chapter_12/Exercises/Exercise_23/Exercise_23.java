@@ -21,7 +21,7 @@ public class Exercise_23 {
                 counterOfNumbers++;
             }
         }
-       /catch (MalformedURLException e) {
+       catch (MalformedURLException e) {
             System.out.println(e.getMessage());
             System.exit(1);
         } catch (IOException e) {
