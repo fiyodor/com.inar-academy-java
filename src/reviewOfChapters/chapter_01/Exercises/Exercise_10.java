@@ -1,7 +1,6 @@
 package reviewOfChapters.chapter_01.Exercises;
 
 public class Exercise_10 {
-
     public static void main(String[] args) {
 
         double totalSeconds = ((45 * 60) + 30);

@@ -1,7 +1,6 @@
 package reviewOfChapters.chapter_01.Exercises;
 
 public class Exercise_09 {
-
     public static void main(String[] args) {
 
         double width = 4.5;
